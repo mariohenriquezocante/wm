@@ -4,6 +4,8 @@ body{
     font-family: 'Roboto', sans-serif !important;
     margin: 0;
     padding: 0;
+    background-color: #fbfbfb;
+    scroll-behavior: smooth;
 }
 /*Para tirar o scroll bar da tela.*/
 ::-webkit-scrollbar {

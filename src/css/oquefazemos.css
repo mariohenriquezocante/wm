@@ -1,0 +1,422 @@
+.o-que-fazemos {
+    background-color: #fbfbfb;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+div.container2 .card-criacao, .card-dev , .card-marketing  {
+    display: flex;
+    max-width: 100%;
+    height: 200px;
+    background: transparent;
+   
+}
+
+div.container2 .card-criacao  .card-text1  {
+    max-width: 800px;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    color: #363636;
+    margin-left: 8%;
+    margin-top: -3%;
+}
+
+div.container2 .card-criacao  .card-text1 h1 {
+    font-size: 25px;
+    color: #363636;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+div.container2 .card-criacao  .card-text1 h1:hover {
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+div.container2 .card-dev  .card-text2  {
+    max-width: 800px;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    color: #363636;
+    margin-left: 1.5%;
+    margin-top: -3%;
+}
+
+div.container2 .card-dev  .card-text2 h1 {
+    font-size: 25px;
+    color: #363636;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+div.container2 .card-dev  .card-text2 h1:hover {
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+div.container2 .card-marketing  .card-text3  {
+    max-width: 800px;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    color: #363636;
+    margin-left: 8%;
+    margin-top: -3%;  
+}
+
+div.container2 .card-marketing  .card-text3 h1 {
+    font-size: 25px;
+    color: #363636;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+div.container2 .card-marketing  .card-text3 h1:hover {
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+div.separator1 {
+    width: 500px;
+    height: 0.1px;
+    background: #6a7acf;
+    margin-top: -65px;
+    margin-bottom: 76px;
+    margin-right: 400px;
+}
+
+div.separator2 {
+    width: 500px;
+    height: 0.1px;
+    background: #6a7acf;
+    margin-top: -65px;
+    margin-bottom: 80px;
+    margin-left: 400px;
+}
+
+div.container2 .card-dev .card-icon4 {
+    display: none;
+}
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@media only screen and (max-width: 800px){
+    div.separator1 {
+        width: 440px;
+        height: 0.1px;
+        background: #6a7acf;
+        margin-top: -45px;
+        margin-bottom: 76px;
+        margin-right: 310px;
+    }
+
+    div.separator2 {
+        width: 440px;
+        height: 0.1px;
+        background: #6a7acf;
+        margin-top: -45px;
+        margin-bottom: 80px;
+        margin-left: 330px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    div.container2 .card-criacao, .card-dev , .card-marketing  {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: 200px;
+        background: transparent;
+        align-items: center;
+        
+    }
+
+    div.container2 {
+        align-items: center;
+    }
+
+    div.separator1 {
+        width: 450px;
+        height: 0.1px;
+        background: #6a7acf;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        margin-left: 42.5%;
+    }
+
+    div.container2 .card-dev .card-icon2 {
+        display: none;
+    }
+
+    div.container2 .card-dev .card-icon4 {
+        display: block;
+        align-items: center;
+    }
+
+    div.container2 .card-criacao  .card-text1 h1 {
+        margin-left: 38%;
+        margin-top: 30px;
+    }
+
+    div.container2 .card-criacao  .card-text1 p {
+        margin-left: 4%;
+        
+    }
+
+    div.container2 .card-dev  .card-text2 h1 {
+        margin-left: 34%;
+        margin-top: 30px;
+    }
+
+    div.container2 .card-dev  .card-text2 p {
+        margin-left: 10%;
+        
+    }
+
+    div.separator2 {
+        width: 450px;
+        height: 0.1px;
+        background: #6a7acf;
+        margin-top: 100px;
+        margin-bottom: 55px;
+        margin-right: 42.5%;
+    }
+
+    div.container2 .card-marketing  .card-text3 h1 {
+        margin-left: 28%;
+        margin-top: 30px;
+    }
+
+    div.container2 .card-marketing  .card-text3 p {
+        margin-left: 4%;
+    }
+}
+
+@media only screen and (max-width: 396px){
+    div.container2 .card-criacao, .card-dev , .card-marketing  {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: 200px;
+        background: transparent;
+        align-items: center;
+        
+    }
+
+    div.container2 {
+        align-items: center;
+    }
+
+    div.separator1 {
+        width: 230px;
+        height: 0.1px;
+        background: #6a7acf;
+        margin-top: 185px;
+        margin-bottom: 50px;
+        margin-left: 76%;
+    }
+
+    div.container2 .card-dev .card-icon2 {
+        display: none;
+    }
+
+    div.container2 .card-dev .card-icon4 {
+        display: block;
+        align-items: center;
+    }
+
+    div.container2 .card-criacao  .card-text1 h1 {
+        margin-left: 32%;
+        margin-top: 30px;
+    }
+
+    div.container2 .card-criacao  .card-text1 p {
+        margin-left: 4%;
+        
+    }
+
+    div.container2 .card-dev  .card-text2 h1 {
+        margin-left: 20%;
+        margin-top: 30px;
+    }
+
+    div.container2 .card-dev  .card-text2 p {
+        margin-left: 10%;
+        
+    }
+
+    div.separator2 {
+        width: 230px;
+        height: 0.1px;
+        background: #6a7acf;
+        margin-top: 185px;
+        margin-bottom: 55px;
+        margin-right: 85%;
+    }
+
+    div.container2 .card-marketing  .card-text3 h1 {
+        margin-left: 14%;
+        margin-top: 21px;
+    }
+
+    div.container2 .card-marketing  .card-text3 p {
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    div.container2 .card-criacao, .card-dev , .card-marketing  {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: 200px;
+        background: transparent;
+        align-items: center;
+        
+    }
+
+    div.container2 {
+        align-items: center;
+    }
+
+    div.separator1 {
+        width: 230px;
+        height: 0.1px;
+        background: #6a7acf;
+        margin-top: 260px;
+        margin-bottom: 50px;
+        margin-left: 83%;
+    }
+
+    div.container2 .card-dev .card-icon2 {
+        display: none;
+    }
+
+    div.container2 .card-dev .card-icon4 {
+        display: block;
+        align-items: center;
+    }
+
+    div.container2 .card-criacao  .card-text1 h1 {
+        margin-left: 30%;
+        margin-top: 30px;
+    }
+
+    div.container2 .card-criacao  .card-text1 p {
+        margin-left: 1%;
+        
+    }
+
+    div.container2 .card-dev  .card-text2 h1 {
+        margin-left: 15%;
+        margin-top: 30px;
+    }
+
+    div.container2 .card-dev  .card-text2 p {
+        margin-left: 4%;
+        
+    }
+
+    div.separator2 {
+        width: 230px;
+        height: 0.1px;
+        background: #6a7acf;
+        margin-top: 250px;
+        margin-bottom: 55px;
+        margin-right: 93%;
+    }
+
+    div.container2 .card-marketing  .card-text3 h1 {
+        margin-left: 8%;
+        margin-top: 21px;
+    }
+
+    div.container2 .card-marketing  .card-text3 p {
+        margin-left: 1%;
+    }
+}

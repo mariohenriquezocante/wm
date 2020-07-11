@@ -46,21 +46,24 @@ div.container .cards .card1 , .card2 , .card3 {
 }
 
 div.container .cards .card1:hover {
-    -webkit-transform: scale(1.07);
-    -ms-transform: scale(1.07);
-    transform: scale(1.07);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow:  10px 10px 30px rgba(54, 54, 54, 0.71);
 }
 
 div.container .cards .card2:hover {
-    -webkit-transform: scale(1.07);
-    -ms-transform: scale(1.07);
-    transform: scale(1.07);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow:  10px 10px 30px rgba(54, 54, 54, 0.71);
 }
 
 div.container .cards .card3:hover {
-    -webkit-transform: scale(1.07);
-    -ms-transform: scale(1.07);
-    transform: scale(1.07);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow:  10px 10px 30px rgba(54, 54, 54, 0.71);
 }
 
 div.container .cards .card1 p{
@@ -85,6 +88,7 @@ div.container .cards .card2 p{
 }
 
 div.container .cards .card3 p{
+    max-height: 60px;
     margin-left: 4%;
     font-size: 24px;
     font-weight: 300;
@@ -132,7 +136,6 @@ div.container .cards .card3 h1 {
     div.container .cards {
         flex-direction: column;
         margin-left: 0%;
-        align-items: center;
     }
 
 
@@ -141,10 +144,11 @@ div.container .cards .card3 h1 {
         display: flex;
         flex-direction: column;
         min-width: 900px;
-        height: 250px; 
+        height: 280px; 
         background: rgba(134, 65, 210, 0.37);
         box-shadow: inset 10px 10px 150px rgba(50, 35, 58, 0.71);
         margin-left: 20px;
+        margin-bottom: 15px;
     }
     
     div.container .cards .card1 p{
@@ -162,15 +166,14 @@ div.container .cards .card3 h1 {
         margin-left: 0%;
         font-size: 24px;
         font-weight: 300;
-        text-align: left;
+        text-align: center;
         line-height: 30px;
         max-width: 1000px;
         color: #363636;
     }
 
     div.container .cards .card3 p{
-        max-height: 10px;
-        margin-left: 0%;
+        margin-left: 12%;
         font-size: 24px;
         font-weight: 300;
         text-align: left;
@@ -179,7 +182,98 @@ div.container .cards .card3 h1 {
         color: #363636;
     }
     
-    
-    
 }
 
+
+@media only screen and (max-width: 977px) {
+    div.container div.texto p {
+        margin-left: 6%;
+    }
+}
+
+
+@media only screen and (max-width: 935px){
+    div.container .cards {
+        flex-direction: column;
+        margin-left: 0%;
+    }
+
+    div.container .cards .card1 , .card2 , .card3 {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        max-width: 430px;
+        height: 530px; 
+        left: 14px;
+        top: 300px;
+        background: rgba(134, 65, 210, 0.37);
+        box-shadow: inset 10px 10px 150px rgba(50, 35, 58, 0.71);
+        border-radius: 17px;
+        min-width: 350px;
+    }
+    
+    div.container .cards .card1 p{
+        max-height: 50px;
+        margin-left: 0%;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 30px;
+        max-width: 230px;
+        color: #363636;
+    }
+    
+    div.container .cards .card2 p{
+        margin-left: 0%;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 30px;
+        max-width: 230px;
+        color: #363636;
+    }
+    
+    div.container .cards .card3 p{
+        margin-left: 4%;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: left;
+        line-height: 30px;
+        max-width: 230px;
+        color: #363636;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    div.container div.texto p {
+        margin-left: 2.5%;
+        max-width: 340px;
+    }
+
+    div.container .cards {
+        flex-direction: column;
+        margin-left: -5%;
+    }
+
+    div.container .cards .card1 , .card2 , .card3 {
+        min-width: 300px;
+    }
+
+    div.container .cards .card1:hover {
+        -webkit-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+    
+    div.container .cards .card2:hover {
+        -webkit-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+    
+    div.container .cards .card3:hover {
+        -webkit-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+}
