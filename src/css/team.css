@@ -10,6 +10,7 @@ div.container3 .logo-team img {
     width: 175px;
     height: 75px;
     margin-top: 15px;
+
 }
 
 div.container3 .perfis {
@@ -111,7 +112,7 @@ div.container3 .perfis .perfil2 .nome-perfil2 h1 {
 
 div.container3 .perfis .perfil2 .nome-perfil2 p {
     color: #fbfbfb;
-    width: 300px;
+    width: 240px;
     font-size: 15px;
     font-weight: 100;
     letter-spacing: 0.5px;
@@ -149,4 +150,177 @@ div.container3 .perfis .perfil2 .redes-social2 a img {
 
  div.container3 .perfis .perfil2 {
     margin-left: 40%;
+}
+
+
+@media only screen and (max-width: 1040px){
+    div.container3 .perfis .perfil1  {
+         margin-left: -6%;
+    }
+
+    div.container3 .perfis .perfil2  {
+        margin-left: 20%;
+   }
+
+   div.container3 .logo-team img {
+        margin-left: -4%;
+}
+}
+
+@media only screen and (max-width: 996px){
+    div.container3 .perfis .perfil1  {
+         margin-left: -5%;
+    }
+
+    div.container3 .perfis .perfil2  {
+        margin-left: 10%;
+   }
+
+   div.container3 .logo-team img {
+        margin-left: -12%;
+}
+}
+
+@media only screen and (max-width: 900px){
+    div.container3 .perfis .perfil1  {
+         margin-left: -8%;
+    }
+
+    div.container3 .perfis .perfil2  {
+        margin-left: 10%;
+   }
+
+   div.container3 .logo-team img {
+        margin-left: -24%;
+}
+}
+
+@media only screen and (max-width: 800px){
+     
+    div.container3 .perfis {
+       display: flex;
+       flex-direction: column;
+    }
+
+    div.container3 .logo-team img {
+        margin-left: 0%;
+    }
+
+    div.container3 .perfis .perfil1  {
+        margin-left: 20%;
+   }
+
+   div.container3 .perfis .perfil2  {
+       margin-left: 20%;
+  }
+
+  div.container3 .perfis .perfil1 .funcao-perfil1 p {
+      width: 310px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+   div.container3 {
+       margin-top: 180px;
+   }
+
+   div.container3 .perfis .perfil2 .redes-social2 {
+       margin-left: 28%;
+   }
+
+   div.container3 .perfis .perfil1 .redes-social1 {
+    margin-left: 28%;
+}
+}
+
+@media only screen and (max-width: 396px){
+    div.container3 {
+        margin-top: 250px;
+    }
+
+    div.container3 .perfis .perfil1 .nome-perfil1 h1 {
+        margin-left:  -6%;
+    }
+
+    div.container3 .perfis .perfil1 .nome-perfil1 p {
+        margin-left:  17%;
+    }
+
+    div.container3 .perfis .perfil1 .funcao-perfil1 p {
+        margin-left:  -7%;
+    }
+
+    div.container3 .perfis .perfil1 .redes-social1 {
+        margin-left: 28%;
+    }
+
+    div.container3 .perfis .perfil2 .nome-perfil2 h1 {
+        margin-left:  10%;
+    }
+
+    div.container3 .perfis .perfil2 .nome-perfil2 p {
+        margin-left:  17%;
+    }
+
+    div.container3 .perfis .perfil2 .funcao-perfil2 p {
+        margin-left:  -7%;
+    }
+
+    div.container3 .perfis .perfil2 .redes-social2 {
+        margin-left: 28%;
+    }
+
+    div.container3 .perfis .perfil2 {
+        margin-left:  18%;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    div.container3 {
+        margin-top: 250px;
+    }
+
+    div.container3 .perfis .perfil1 .nome-perfil1 h1 {
+        margin-left:  -6%;
+    }
+
+    div.container3 .perfis .perfil1 .nome-perfil1 p {
+        margin-left:  17%;
+    }
+
+    div.container3 .perfis .perfil1 .funcao-perfil1 p {
+        margin-left:  -7%;
+    }
+
+    div.container3 .perfis .perfil1 .redes-social1 {
+        margin-left: 28%;
+    }
+
+    div.container3 .perfis .perfil2 .nome-perfil2 h1 {
+        margin-left:  10%;
+    }
+
+    div.container3 .perfis .perfil2 .nome-perfil2 p {
+        margin-left:  17%;
+    }
+
+    div.container3 .perfis .perfil2 .funcao-perfil2 p {
+        margin-left:  -7%;
+    }
+
+    div.container3 .perfis .perfil2 .redes-social2 {
+        margin-left: 28%;
+    }
+
+    div.container3 .perfis .perfil2 {
+        margin-left:  14%;
+    }
+
+    div.container3 .perfis .perfil1 {
+        margin-left:  14%;
+    }
+
+    div.container3 .perfis {
+        width: 350px;
+    }
 }
