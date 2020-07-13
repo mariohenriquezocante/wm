@@ -1,0 +1,16 @@
+div.icone-whats a  img{
+    width: 60px;
+    height: 60px;
+ }
+
+ div.icone-whats a  img:hover  {
+    transform: scale(1.2);
+ }
+ 
+ div.whats a  img{
+     width: auto;
+     position: fixed;
+     bottom: 70px;
+     right: 15px;
+     z-index: 999;
+ }

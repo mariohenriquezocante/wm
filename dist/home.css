@@ -18,9 +18,9 @@
 }
 
 .container nav {
-    display: flex;
-    align-items: center;
-    position: relative;
+    display: flex !important;
+    align-items: center !important;
+    position: relative !important;
 }
 
 .container nav img {
@@ -31,27 +31,27 @@
 }
 
 .container nav ul {
-    list-style: none;
-    display: flex;
-    margin-left: 450px;
-    margin-top: 45px;
+    list-style: none !important;
+    display: flex !important;
+    margin-left: 450px !important;
+    margin-top: 45px !important;
 }
 
 .container nav ul li {
-    padding: 0px 25px;
+    padding: 0px 25px !important;
 }
 
 .container nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 200;
-    font-size: 12px;
-    letter-spacing: 1px;
+    text-decoration: none !important;
+    color: #fff !important;
+    font-weight: 200 !important;
+    font-size: 12px !important;
+    letter-spacing: 1px !important;
 
 }
 
 .container nav ul li a:hover {
-    color: rgb(226, 226, 226);
+    color: rgb(226, 226, 226) !important;
 }
 
 .servicos1 {
@@ -66,8 +66,8 @@
     letter-spacing: 3px;
     white-space: nowrap;
     overflow: hidden;
-    -webkit-animation: cursor 600ms  infinite normal, digitar 3s 1.5s steps(110) normal both;
-    animation: cursor 600ms  infinite normal, digitar 3s 1.5s steps(110) normal both;
+    -webkit-animation: digitar 3s 1.5s steps(110) normal both;
+    animation: digitar 3s 1.5s steps(110) normal both;
 }
 .servicos2 {
     max-width: 215px;
@@ -81,8 +81,8 @@
     letter-spacing: 3px;
     white-space: nowrap;
     overflow: hidden;
-    -webkit-animation: cursor 600ms 3.4s infinite normal, digitar 3s 3.4s steps(100) normal both;
-    animation: cursor 600ms 3.4s infinite normal, digitar 3s 3.4s steps(100) normal both;
+    -webkit-animation: digitar 3s 3.4s steps(100) normal both;
+    animation: digitar 3s 3.4s steps(100) normal both;
 }
 .servicos3 {
     max-width: 755px;
@@ -96,8 +96,8 @@
     letter-spacing: 3px;
     white-space: nowrap;
     overflow: hidden;
-    -webkit-animation: /*cursor 600ms 4.4s infinite normal,*/ digitar 3s 4.4s steps(100) normal both;
-    animation: /*cursor 600ms 4.4s infinite normal,*/ digitar 3s 4.4s steps(100) normal both;
+    -webkit-animation: digitar 3s 4.4s steps(100) normal both;
+    animation: digitar 3s 4.4s steps(100) normal both;
 }
 
 .servicos4 {
@@ -113,13 +113,14 @@
     letter-spacing: 3px;
     white-space: nowrap;
     overflow: hidden;
-    -webkit-animation: /*cursor 600ms  infinite normal,*/ digitar 3s 4.4s steps(100) normal both;
-    animation: /*cursor 600ms  infinite normal,*/ digitar 3s 4.4s steps(100) normal both;
+    -webkit-animation: digitar 3s 4.4s steps(100) normal both;
+    animation: digitar 3s 4.4s steps(100) normal both;
 }
 
 div.container nav img.img1{
     display: none;
 }
+
 
 @-webkit-keyframes digitar {
     from {
@@ -130,6 +131,7 @@ div.container nav img.img1{
     }
 }
 
+
 @keyframes digitar {
     from {
         width: 0;
@@ -139,21 +141,10 @@ div.container nav img.img1{
     }
 }
 
-/*
-@keyframes cursor {
-    from{
-        border-right-color: #ffff;
-    }
-    to{
-        border-right-color: transparent;
-    }
-}*/
-
-
 @-webkit-keyframes animacao {
     20%{
         opacity: 1;
-        transform: translate(1.1,1.1) ;
+        transform: translate(1.1,1.1) !important ;
     }
 
     50% {
@@ -161,11 +152,10 @@ div.container nav img.img1{
     }
 }
 
-
 @keyframes animacao {
     20%{
         opacity: 1;
-        transform: translate(1.1,1.1) ;
+        transform: translate(1.1,1.1) !important ;
     }
 
     50% {
@@ -174,8 +164,8 @@ div.container nav img.img1{
 }
 
 .item_slider:nth-child(1){
-    -webkit-animation-delay: none;
-    animation-delay: none;
+    -webkit-animation-delay: none !important ;
+    animation-delay: none !important ;
 }
 .item_slider:nth-child(2){
     -webkit-animation-delay: 5s;
@@ -196,7 +186,7 @@ div.container nav img.img1{
 
 @media only screen and (max-width: 1350px){
     .container nav ul {
-        margin-left: 300px;
+        margin-left: 300px !important;
     }
 
     div.digitar p {
@@ -206,7 +196,7 @@ div.container nav img.img1{
 
 @media only screen and (max-width: 1175px){
     .container nav ul {
-        margin-left: 200px;
+        margin-left: 200px !important;
     }
 
     div.digitar p {
@@ -216,7 +206,7 @@ div.container nav img.img1{
 
 @media only screen and (max-width: 1091px){
     .container nav ul {
-        margin-left: 150px;
+        margin-left: 150px !important;
     }
 
     div.digitar p {
@@ -258,10 +248,10 @@ div.container nav img.img1{
     }
 
     .container nav ul {
-        align-items: center;
-        justify-content: center;
-        margin-right: 22%;
-        margin-top: 2%;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-right: 22% !important;
+        margin-top: 2% !important;
     }
 
     .servicos1 {
@@ -513,7 +503,7 @@ div.container nav img.img1{
 
 @media only screen and (max-width: 520px){
     .container nav ul {
-        margin-left: 2px;
+        margin-left: 2px !important;
     }
 
     div.digitar p {
@@ -549,12 +539,12 @@ div.container nav img.img1{
 
 @media only screen and (max-width: 473px){
     .container nav ul {
-        margin-left: 2px;
+        margin-left: 2px !important;
     }
 
     div.digitar p {
         margin-left: 35px;
-        font-size: 18px;
+        font-size: 23px;
     }
 
     div.digitar p.servicos1 {
@@ -581,12 +571,12 @@ div.container nav img.img1{
 
 @media only screen and (max-width: 421px){
     .container nav ul {
-        margin-left: 25px;
+        margin-left: 25px !important;
     }
 
     div.digitar p {
         margin-left: 25px;
-        font-size: 16px;
+        font-size: 23px;
     }
 
     div.digitar p.servicos1 {
@@ -614,9 +604,13 @@ div.container nav img.img1{
 
 @media only screen and (max-width: 381px){
 
+    div.digitar {
+        margin-top: 185px;
+    }
+
     div.digitar p {
-        margin-left: 75px;
-        font-size: 16px;
+        margin-left: 45px;
+        font-size: 23px;
     }
 
     div.digitar p.servicos1 {
@@ -629,8 +623,9 @@ div.container nav img.img1{
 
     div.digitar p.servicos4 {
         display: block;
-        -webkit-animation: /*cursor 600ms  infinite normal,*/ digitar 3s 4.4s steps(100) normal both;
-        animation: /*cursor 600ms  infinite normal,*/ digitar 3s 4.4s steps(100) normal both;
+        -webkit-animation: digitar 3s 4.4s steps(100) normal both;
+        animation: digitar 3s 4.4s steps(100) normal both;
+        top: -68px;
     }
 
     .container nav {
@@ -647,15 +642,15 @@ div.container nav img.img1{
     }
 
     div.digitar p.servicos1 {
-        max-width: 205px;
+        max-width: 267px;
     }
 
     .container nav ul {
-        margin-bottom: 20px;
+        margin-bottom: 20px !important;
     }
 
     .container nav ul li {
-        padding: 0px 15px;
+        padding: 0px 15px !important;
 
     }
 
