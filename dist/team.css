@@ -20,7 +20,7 @@ div.container3 .perfis {
 }
 
 div.container3 .perfis .perfil1 .foto1 {
-    background-image: url('../src/assets/img_perfil1.svg');
+    background-image: url('../assets/img_perfil1.svg');
     background-repeat: no-repeat;
     background-size: 200px;
     width: 140px;
@@ -82,7 +82,7 @@ div.container3 .perfis .perfil1 {
 }
 
 div.container3 .perfis .perfil2 .foto2 {
-    background-image: url('../src/assets/img_perfil2.jpg');
+    background-image: url('../assets/img_perfil2.jpg');
     background-repeat: no-repeat;
     background-size: 145px;
     width: 140px;

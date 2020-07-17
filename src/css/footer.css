@@ -164,6 +164,17 @@ div.container5 .endereco-footer p {
     }
 }
 
+@media only screen and (max-width: 375px){
+    div.container5 .redes-footer .texto-footer span {
+        max-width: 375px;
+        margin-left: -12%;
+    }
+
+    div.container5 .redes-footer .texto-footer p {
+        margin-left: 2%;
+    }
+}
+
 @media only screen and (max-width: 360px){
     div.container5 .redes-footer .texto-footer span {
         margin-left: -8%;

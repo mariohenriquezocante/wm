@@ -346,7 +346,66 @@ div.container2 .card-dev .card-icon4 {
     }
 }
 
+@media only screen and (max-width: 375px){
+    div.container2 .separator1 {
+        display: none;
+ 
+    } 
+ 
+    div.container2 .separator2 {
+     display: none;
+ } 
+ 
+     div.container2 .card-dev {
+         margin-top: 250px;
+     }
+ 
+     div.container2 .card-marketing {
+         margin-top: 250px;
+     }
+ 
+     div.container2 .card-criacao .card-text1 h1{
+         margin-left: 31%;
+     }
+ 
+     div.container2 .card-criacao .card-text1 p {
+         margin-left: -8%;
+         text-align: center;
+     }
+ 
+     div.container2 .card-dev .card-text2 h1{
+         margin-left: 17%;
+     }
+ 
+     div.container2 .card-dev .card-text2 p {
+         margin-left: 2%;
+         text-align: center;
+         max-width: 370px;
+     }
+ 
+     div.container2 .card-marketing .card-text3 h1{
+         margin-left: 10%;
+ 
+     }
+ 
+     div.container2 .card-marketing .card-text3 p {
+         margin-left: -8%;
+         text-align: center;
+         max-width: 350px;
+     }
+ 
+ }
+
 @media only screen and (max-width: 360px){
+    div.container2 .separator1 {
+        display: none;
+ 
+    } 
+ 
+    div.container2 .separator2 {
+     display: none;
+    } 
+
     div.container2 .card-criacao, .card-dev , .card-marketing  {
         display: flex;
         flex-direction: column;

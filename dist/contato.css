@@ -233,6 +233,17 @@ div.container4 .form form input::-webkit-input-placeholder { /* Chrome, Safari, 
     }
   }
 
+  @media only screen and (max-width: 375px){
+    div.container4 .texto-form p {
+        margin-left: -76%;
+        text-align: center;
+        }
+
+    div.container4 .texto-form {
+        max-width: 100px;
+    }
+}
+
   @media only screen and (max-width: 360px){
     div.container4 .texto-form {
         max-width:300px;
